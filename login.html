@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/lg.css">
+    <title>登陆</title>
+</head>
+<body>
+    <form class="login-form" onsubmit="return false" autocomplete="off">
+    <header class="header_control">
+        <a href="index.html"></a>
+    </header>
+    <main>
+        <div class="centen_control">
+            <div class="main_left">
+                <a href="index.html"><img src="img/login_03.png"></a>
+            </div>
+            <div class="main_right">
+                <div class="top">
+                    <div class="phone">手机号登录</div>
+                    <span></span>
+                    <div class="email">邮箱登陆</div>
+                </div>
+                <div class="centen">
+                    <div class="username">
+                        <input type="text"  name="username" id="username" required="required" placeholder="网易邮箱账号">
+                    </div>
+                    <div class="password">
+                        <input type="password"  name="password" id="password" required="required" placeholder="密码">
+                    </div>
+                    <div class="login_but">
+                        <button value="" class="but" type="submit" name="login-btn">登录</button>
+                    </div>
+                    <div class="exempt">
+                        <span>
+                            <input type="button">
+                            <a href="">10天免登录</a>
+                        </span>
+                        <a href="#">忘记密码？</a>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <span class="left_sp">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </span>
+                    <span class="right_sp">
+                        <a href="register.html">手机快捷注册</a>
+                        <a href=""></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="ul1">
+            <li><a href="">About NetEase</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">公司简介</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">联系方法</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">友情链接</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">招聘信息</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">客户服务</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">隐私政策</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">网络营销</a></li>
+            <li style="height: 12px;border: 0.5px solid #666;"></li>
+            <li><a href="">网易考拉</a></li>
+        </ul>
+        <ul class="ul2">
+            <li>网络文化经营许可证：浙网文[2016]0155-055号</li>
+            <li>增值电信业务经营许可证：浙B2-20160288</li>
+            <li><a href="">自营经营者信息</a></li>
+            <li>（浙）网械平台备字[2018]第00007号</li>
+        </ul>
+        <p class="footer_p">
+            <a href="">
+                <img src="img/lg_03.png">
+                <span>浙公网安备 33010802002216号</span>
+                <span>网易公司版权所有@1997-2008</span>
+                <span>互联网药品信息服务资格证书编号（浙）-2017-0027</span>
+                <span>浙ICP备16011229号-6</span>
+            </a>
+        </p>
+        <p class="footer_ic">
+            <a href=""><img src="img/lg_07.png"></a>
+            <a href=""><img src="img/lg_10.png"></a>
+        </p>
+    </footer>
+    </form>
+    <script src="js/common/ajax.js"></script>
+    <script src="js/login.js"></script>
+    <script>
+        login.init('.login-form');
+    </script>
+</body>
+</html>

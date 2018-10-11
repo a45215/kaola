@@ -1,0 +1,69 @@
+html, body, div,header,main,footer, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+.header_control{width: 1000px;margin: 0 auto;}
+header{width: 100%;padding-top: 18px;padding-bottom: 16px;}
+header a{display: block;background: url(../img/img_07.png) no-repeat;height: 65px;}
+
+
+main{background: #f8f8f8;width: 100%;padding-top: 48px;padding-bottom: 150px;border-top: 1px solid #e8e8ea;}
+.centen_control{width: 946px;margin: 0 auto;padding-right: 26px;display: flex;justify-content:space-between;align-items: center;}
+.main_right{width: 349px;border: 1px solid #e8e8ea;}
+.main_right .top{width: 100%;height: 54px;border-bottom:1px solid #e8e8ea;display: flex; align-items: center;}
+.main_right .top div{width: 175px;text-align: center;font-size: 16px;}
+.main_right .top span{border: 1px solid #e8e8ea;height: 20px;}
+.main_right .top .email{color: #e31454;}
+
+.main_right .centen{padding: 20px 40px 32px 40px;border-bottom: 1px solid #e8e8ea;background: white;}
+.main_right .centen .username{width: 270px;height: 34px}
+.main_right .centen .username input{border: 1px solid #d5d5d5; width: 230px;height: 32px;
+    background: url(../img/icon2.png) no-repeat;background-position: -368px -375px;padding-left: 40px;}
+input::-webkit-input-placeholder{color: #e1e5ef;}
+.main_right .centen .password{width: 270px;height: 34px;margin-top: 16px;}
+.main_right .centen .password input{width: 230px;height: 32px;border: 1px solid #d5d5d5;
+    background: url(../img/icon2.png) no-repeat;background-position: -370px -437px;padding-left: 40px; }
+.main_right .centen .login_but{width: 270px;height: 34px;border-radius: 5px;margin-top: 30px;}
+.main_right .centen .login_but button{width: 270px;height: 34px;background: #e31436;border: 0;color: white;
+    outline:none;}
+.main_right .centen .exempt{margin-top: 10px;display: flex;justify-content: space-between;}
+.main_right .centen .exempt input{width: 16px;height: 16px;border:1px solid #d5d5d5;background: #d5d5d5;
+    outline:none;background: url(../img/icon2.png) no-repeat;background-position: -330px -91px;}
+.main_right .centen .exempt span a{text-decoration: none;color: #999;margin-left: 5px;font-size: 12px;}
+.main_right .centen .exempt a{text-decoration: none;color: #999;font-size: 12px;}
+
+.main_right .bottom{display: flex;justify-content: space-between;padding: 10px 40px 8px 40px;background: white;}
+.main_right .bottom .left_sp{display: flex;}
+.main_right .bottom .right_sp{display: flex;}
+.main_right .bottom .left_sp a:nth-child(1){background: url(../img/icon1.png) no-repeat;background-position:-760px -401px;
+width: 22px;height: 22px;display: block}
+.main_right .bottom .left_sp a:nth-child(2){background: url(../img/icon1.png) no-repeat;background-position: -792px -401px;
+margin-left: 10px;width: 22px;height: 22px;display: block}
+.main_right .bottom .left_sp a:nth-child(3){background: url(../img/icon1.png) no-repeat;background-position: -824px -401px;
+margin-left: 10px;width: 22px;height: 22px;display: block}
+.main_right .bottom .left_sp a:nth-child(4){background: url(../img/icon1.png) no-repeat;background-position: -855px -401px;
+margin-left: 10px;width: 22px;height: 22px;display: block}
+.main_right .bottom .right_sp a:nth-child(1){font-size: 14px;color: #e31436;text-decoration: none;}
+.main_right .bottom .right_sp a:nth-child(2){background: url(../img/icon1.png) no-repeat;background-position: -899px -404px;
+margin-left: 6px;width: 15px;height: 18px;display: block;}
+
+
+footer{width: 950px;margin: 0 auto;padding-top: 45px;padding-bottom: 100px;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+footer .ul1{display: flex;justify-content: space-between;align-items: center;}
+footer .ul1 li a{font-size: 14px;color: #666666;}
+footer .ul2{display: flex;justify-content: space-between;align-items: center;padding-left: 27px;
+    padding-right: 27px;margin-top: 15px;}
+footer .ul2 li{font-size: 12px;color:#999999;}
+footer .ul2 li a{color: #666666;}
+footer .footer_p{padding-left: 40px;margin-top: 15px;}
+footer .footer_p a{display: flex;align-items: center;}
+footer .footer_p a{font-size: 12px;color:#999999;}
+footer .footer_p img{margin-right: 12px;}
+footer .footer_p span:nth-of-type(2){margin-left: 15px;}
+footer .footer_p span:nth-of-type(3){margin-left: 30px;}
+footer .footer_p span:nth-of-type(4){margin-left: 15px;}
+
+footer .footer_ic{display: flex;justify-content: center;margin-top: 15px;}
+footer .footer_ic a img{margin-right: 15px;}
