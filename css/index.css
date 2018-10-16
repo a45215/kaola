@@ -192,25 +192,37 @@ color: white;float: right;}
 /*考拉海购*/
 .sea_order{margin-top: 20px;}
 
+
+
 /*底部控制*/
+.sg_control{width: 1100px;margin: 0 auto;}
 .footer_control{width: 1100px;margin: 0 auto;}
 /*底部*/
 footer{background: white;}
-.safeguard{height: 146px;display: flex;justify-content: space-between;align-items: center;}
+.safeguard{height: 146px;display: flex;align-items: center;}
 .safeguard ul{display: flex;}
-.safeguard ul li:nth-child(1){width: 47px;height: 47px;border: 1px solid #d8d8d8;border-radius: 50%;text-align: center;
+.safeguard ul:nth-child(1){margin-left: 40px;}
+.safeguard ul:nth-child(2){margin-left: 100px;}
+.safeguard ul:nth-child(3){margin-left: 70px;}
+.safeguard ul:nth-child(4){margin-left: 100px;}
+.safeguard ul li:nth-child(1){width: 50px;height: 50px;border: 2px solid #d8d8d8;border-radius: 50%;text-align: center;
 line-height: 47px;font-size: 18px;font-weight: 700;color: #443230;}
 .safeguard ul li:nth-child(2){margin-left: 12px;}
-.safeguard ul li:nth-child(2) span{font-size: 16px;font-weight: 700;color: #443230;}
-.safeguard ul li:nth-child(2) p{font-size: 12px;color: #342c37;}
+.safeguard ul li:nth-child(2) span{font-size: 18px;font-weight: 700;color: #443230;}
+.safeguard ul li:nth-child(2) p{font-size: 14px;color: #342c37;}
 
-.service{padding-top: 45px;padding-bottom: 78px;display: flex;justify-content: space-between;border-top: 1px solid #eaeaea;}
+.c_line_control{width: 1100px;margin: 0 auto;}
+footer .c_line{border-top: 1px solid #eaeaea;}
+
+.service{padding-top: 45px;padding-bottom: 78px;display: flex;}
 .service_left p{font-size: 12px;color: #312d3e;margin-top: 20px;}
 .service_left p a img{margin-left: 14px;}
+.service ul{margin-left: 60px;}
 .service ul li:nth-child(2){margin-top: 9px;}
-.service ul li h3{color: #29333d;}
+.service ul h3{color: #29333d;font-size: 18px;}
 .service ul li a{font-size: 12px;color: #29333d;}
 .service ul li{line-height: 29px;}
+.service_right{margin-left: 50px;}
 .service_right p{text-align: center;font-size: 12px;line-height: 24px;}
 .footer_bottom{height: 150px;width: 100%;background: #333333;}
 .footer_bottom_control{width: 848px;margin: 0 auto;padding-top: 14px;}
