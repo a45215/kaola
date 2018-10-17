@@ -272,7 +272,7 @@ width: 20px;display: block;height: 18px;;}
 align-items: center;margin-left: 50px;border-bottom: 1px solid #cccccc;}
 .order_right .intro .intro_count li span:nth-child(2) a{border: 1px solid #cccccc;width: 22px;text-align: center;
 height: 22px;line-height:16px;font-size: 24px;}
-.order_right .intro .intro_count li span:nth-child(2) input{width: 54px;height: 16px;padding: 0 20px 0 20px}
+.order_right .intro .intro_count li span:nth-child(2) input{width: 54px;height: 16px;text-align: center;}
 .order_right .intro .intro_count li span:nth-child(3){font-size: 12px;color: #969fa6;margin-left: 8px;}
 /*第九行块*/
 .order_right .intro .intro_explain{margin-top: 14px;margin-bottom: 22px;}
